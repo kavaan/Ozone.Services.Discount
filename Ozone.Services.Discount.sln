@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ozone.Services.Discount", "Ozone.Services.Discount", "{74A3DB55-C4C3-465F-A3D8-A62F9B0190C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4ACC1950-5265-4088-9990-46B9F392C368}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F541C3FD-5F40-4756-82D5-6B0D4045B7C4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ozone.Services.Discount.Api", "src\Ozone.Services.Discount.Api\Ozone.Services.Discount.Api.csproj", "{26224549-F4A0-4D4D-99D6-0649DDBA8F37}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ozone.Services.Discount.Application", "src\Ozone.Services.Discount.Application\Ozone.Services.Discount.Application.csproj", "{EC61B953-3AF6-4DB2-B988-488F7FDEDEDC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ozone.Services.Discount.Core", "src\Ozone.Services.Discount.Core\Ozone.Services.Discount.Core.csproj", "{C64E9741-34EB-429A-833A-5D7F23E9B07C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ozone.Services.Discount.Infrastructure", "src\Ozone.Services.Discount.Infrastructure\Ozone.Services.Discount.Infrastructure.csproj", "{BC73CA90-10F2-464C-A45F-89F146D78A06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26224549-F4A0-4D4D-99D6-0649DDBA8F37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26224549-F4A0-4D4D-99D6-0649DDBA8F37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26224549-F4A0-4D4D-99D6-0649DDBA8F37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26224549-F4A0-4D4D-99D6-0649DDBA8F37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC61B953-3AF6-4DB2-B988-488F7FDEDEDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC61B953-3AF6-4DB2-B988-488F7FDEDEDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC61B953-3AF6-4DB2-B988-488F7FDEDEDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC61B953-3AF6-4DB2-B988-488F7FDEDEDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C64E9741-34EB-429A-833A-5D7F23E9B07C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C64E9741-34EB-429A-833A-5D7F23E9B07C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C64E9741-34EB-429A-833A-5D7F23E9B07C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C64E9741-34EB-429A-833A-5D7F23E9B07C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC73CA90-10F2-464C-A45F-89F146D78A06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC73CA90-10F2-464C-A45F-89F146D78A06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC73CA90-10F2-464C-A45F-89F146D78A06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC73CA90-10F2-464C-A45F-89F146D78A06}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4ACC1950-5265-4088-9990-46B9F392C368} = {74A3DB55-C4C3-465F-A3D8-A62F9B0190C6}
+		{F541C3FD-5F40-4756-82D5-6B0D4045B7C4} = {74A3DB55-C4C3-465F-A3D8-A62F9B0190C6}
+		{26224549-F4A0-4D4D-99D6-0649DDBA8F37} = {4ACC1950-5265-4088-9990-46B9F392C368}
+		{EC61B953-3AF6-4DB2-B988-488F7FDEDEDC} = {4ACC1950-5265-4088-9990-46B9F392C368}
+		{C64E9741-34EB-429A-833A-5D7F23E9B07C} = {4ACC1950-5265-4088-9990-46B9F392C368}
+		{BC73CA90-10F2-464C-A45F-89F146D78A06} = {4ACC1950-5265-4088-9990-46B9F392C368}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F8ABAF3-9BAE-49FF-8FD2-6842E8384725}
+	EndGlobalSection
+EndGlobal
